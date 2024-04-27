@@ -40,7 +40,50 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
+  padding-left: 16px;
 }
 
+.content {
+  display: flex;
+  flex-grow: 1;
+}
 
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.card-container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+  height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
